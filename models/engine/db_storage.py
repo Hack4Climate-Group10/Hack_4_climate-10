@@ -6,14 +6,14 @@ Contains the class DBStorage
 import models
 from models.garbage_collection_company import Garbage_collection_company
 from models.base_model import BaseModel, Base
-from models.clients import Clients
+from models.user import Users
 from models.garbage_type import Garbage_type
 from os import getenv
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-classes = {"Client": Clients, "Garbage_type": Garbage_type,
+classes = {"User": User, "Garbage_type": Garbage_type,
            "Garbage_collection_company": Garbage_collection_company}
 
 
