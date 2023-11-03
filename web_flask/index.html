@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- nav beggins here -->
+
     <div class="navbar">
         <div class="navbar-left">
 
@@ -23,9 +25,28 @@
                     <img src="images/search.png" alt="">
                     <input type="text" placeholder="Search ...">
             </div>
-            <button class="btn">Request pickup</button>
+            <button class="btn" id="pickup-btn">Request pickup</button>
         </div>
     </div>
+    <!-- nav ends here -->
+
+    <!-- Form for requesting a garbage pickup -->
+    <div class="pickup-form" id="pickup-form">
+        <h2>Garbage Pickup Request</h2>
+        <form>
+            <label for="pickup-date">Pickup Date:</label>
+            <input type="date" id="pickup-date" name="pickup-date"><br><br>
+            
+            <label for="pickup-location">Pickup Location:</label>
+            <input type="text" id="pickup-location" name="pickup-location"><br><br>
+            
+            <label for="pickup-details">Additional Details:</label>
+            <textarea id="pickup-details" name="pickup-details" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- Form for requesting a garbage pickup ends here -->
 
     <!-- body section starts -->
     <div class="body-container">
@@ -47,28 +68,81 @@
 
         </div>
     </div>
-
-    <!-- footer section starts -->
-    <div class="footer">
-        <div class="about-us">
-            <h2>About Us</h2>
-            <p>We are a company that provides a wide range of services for homes and businesses.<br> Our mission is to provide high-quality services while minimizing our impact on the environment.</p>
+    <div class="contuct">
+        <div class="images">
+            <img src="./images/happy-afro.jpg">
+            <img src="./images/phone-call.png" alt="">
+            <p id="contuct-paragraph">Reliable and trusted services to meet all your waste requirements,<br> feel free to request a free quote today!!</p>
         </div>
-        <div class="social-media">
-            <h2>Follow Us</h2>
-            <ul>
-                <li><a href="#"><img src="images/facebook.png" alt="">facebook</a></li>
-                <li><a href="#"><img src="images/twitter.png" alt="">twitter</a></li>
-                <li><a href="#"><img src="images/instagram.png" alt="">instagram</a></li>
-            </ul>
-        </div>
-        <div class="contact-us">
-            <h2>Contact Us</h2>
-            <p>123 Main St, Anytown USA</p>
-            <p>Phone: 555-555-5555</p>
-            <p>Email: info@mywebsite.com</p>
-        </div>
-
-        <p>&copy; 2023 My Website</p>
+        <hr id="line">
     </div>
+
+    <!-- footer section starts --
+    <footer id="primary-footer">
+        !-- footer widget start --
+        <div class="container footer-widget-area">
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <div class="footer-widget-heading">
+                        <h4>About Us</h4>
+                    </div>
+                    <p>We are a company that provides a wide range of services for homes and businesses.<br> Our mission is to provide high-quality services while minimizing our impact on the environment.
+            </p>
+                    <div class="footer-social-icon">
+                                    <div class="social-title">Follow us:</div>
+                                    <a href="#"><i class="fab fa-facebook-f circle-icon"></i></a>
+                                    <a href="#"><i class="fab fa-instagram circle-icon"></i></a>
+                                    <a href="#"><i class="fab fa-twitter circle-icon"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in circle-icon"></i></a>
+                                </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="footer-widget-heading">
+                        !-- <h4>Contuct Us:</h4>
+                    </div>
+                          <ul class="linkediting">
+                              <li><a href="#">Free Bootstrap 4 Templates</a></li>
+                              <li><a href="#">Bootstrap Footer Templates</a></li>
+                            <li><a href="#">Bootstrap Portfolio Themes</a></li>
+                            <li><a href="#">Bootstrap Hero</a></li>
+                            <li><a href="#">Bootstrap 4 Tutorial</a></li>
+                          </ul>
+                    </div>
+                <div class="col-md-4 p-3">
+                    <div class="footer-widget-heading">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <ul class="linkediting">
+                            <li><a href="#"><i class="fa fa-angle-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> My Portfolio</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Testimonials</a></li>
+                          </ul>
+                </div>
+            </div>
+        </div>
+        !-- footer widget end --
+        <hr>
+        !-- footer credit --
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright-text text-left">
+                                <p>Designed by <a href="#">Samuel Okello</a></p>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-menus text-right">
+                            <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        !-- footer credit end -
+    </footer> -->
 </body>
