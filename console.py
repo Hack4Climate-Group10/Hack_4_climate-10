@@ -5,13 +5,15 @@ import cmd
 from datetime import datetime
 import models
 from models.user import User
+from models.garbage_type import Garbage_type
+from models.garbage_collection_company import Garbage_collection_company
 from models.base_model import BaseModel
 import shlex  # for spliting purposes except when there is double quotes
 import argparse
 import mysql.connector
 import re
 
-classes = {"User": User, "BaseModel": BaseModel}
+classes = {"User": User, "Garbage_type": Garbage_type, "Garbage_collection_company": Garbage_collection_company, "BaseModel": BaseModel}
 
 class MAZINGIRABORACommand(cmd.Cmd):
     """MAZINGIRA comsole"""
@@ -84,11 +86,11 @@ class MAZINGIRABORACommand(cmd.Cmd):
             print("*class doesn't exist*")
 
     # establish a mysql connection
-    con = mysql.connector.connect(
-            host="mysql_host",
-            user="mysql_user",
-            password="mysql_password",
-            database="database_name"
+    conn = mysql.connector.connect(
+            host="",
+            user="",
+            password="",
+            database=""
     )
     cursor = conn.cursor()
 
@@ -101,6 +103,23 @@ class MAZINGIRABORACommand(cmd.Cmd):
        email VARCHAR(255),
        phone VARCHAR(15),
        password VARCHAR(255)
+    )
+    """
+    create_table_query = """
+    CREATE TABLE IF NOT EXISTS garbage_collection_companies(
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      company_name VARCHAR(255),
+      garbage_type VARCHAR(255),
+      email VARCHAR(255),
+      phone VARCHAR(15),
+      location VARCHA(255)
+    )
+    """
+    create_table_query = """
+    CREATE TABLE IF NOT EXISTS garbage_types(
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      garbage_type VARCHAR(255),
+      price_sheet VARCHAR(255)
     )
     """
     cursor.execute(create_table_query)

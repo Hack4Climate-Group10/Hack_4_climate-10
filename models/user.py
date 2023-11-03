@@ -9,8 +9,8 @@ from sqlalchemy import Column, String
 from sqlalchemy.orm import relationship
 
 
-class Client(BaseModel, Base):
-    """Representation of a client """
+class User(BaseModel, Base):
+    """Representation of a user """
     if models.storage_t == 'db':
         __tablename__ = 'users'
         email = Column(String(128), nullable=False)
