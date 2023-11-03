@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: lavender;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 2%;
+
+}
+
+.navbar-left img{
+ width: 50px;
+ height: 50px;
+}           
+
+.navbar-center ul li{
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar-center ul li a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 8px;
+    background-color: lavender;
+    border-radius: 5px;
+    margin-right: 9px;
+
+}
+
+.search-container input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: blue;
+    padding: .6rem;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 8px;
+    background-color: lavender;
+    border-radius: 5px;
+    margin-right: 9px;
+
+}
+
+.search-container input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#pickup-form {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.body-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bin1.jpeg");
+    height: 20rem;
+    display: flex;
+    color: white    ;
+        
+}
+
+.description{
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+    .card{
+        background-color: #f29620;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-top: 12rem;
+        margin-right: 4rem;
+        margin-bottom: 5rem; /* Add margin to the bottom */
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2{
+        background-color:#257830;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-top: 12rem; /* Add margin to the top */
+        margin-right: 5rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card h2{
+        font-size: 1.2rem;
+        padding: 7px;
+        margin: 1rem 2rem 0.5rem 2rem;
+        color: white;
+    }
+
+    .card p{
+        font-size: 1rem;
+        padding: 1.25rem;
+        
+    }
+
+    .card-2 h2{
+        font-size: 1.2rem;
+        padding: 7px;
+        margin: 1rem 2rem 0.5rem 2rem;
+        color: white;
+    }
+
+    .card-2 p{
+        font-size: 1rem;
+        padding: 1.25rem;
+        
+    }
+
+    .contuct{
+        margin: 3rem 0 5rem 0;
+    }
+
+    /* .images{
+        position: absolute;
+    } */
+    .images img{
+        /* position: relative; */
+        padding:5px ;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #phone {
+        position: relative;
+        top: 1ppx;
+        right: 0px;
+        left:-45px;
+    }
+
+    #contuct-paragraph{
+        line-height: 32px;
+    }
+    #contact-paragragh{
+        margin-left: 2em;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    #line {
+        margin:5rem 0 5rem 0;
+        width: 75%;
+    }
+
+    .get-intouch h3 {
+        margin-top: 2em;
+        margin-left: 7em;
+        font-size: 2rem;
+    }
+
+    .get-intouch-det {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em 0 2em 0;
+    }
+    .get-intouch-det img{
+        width: 50%;
+        height: 25%;
+        margin-left: 3em;
+
+    }
+
+    .get-intouch-det p{
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 1rem;
+        font-weight:normal;
+        line-height: 1.75rem;
+    }
+
+
+    /* default list style css */
+ul{
+    margin: 0px;
+    padding: 0px;
+  	}
+
+	ul li{
+	list-style: none;
+    }
+
+/* Style for the main footer container */
+#primary-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for the footer widgets */
+.footer-widget-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for individual widget columns */
+.footer-widget-area .col-md-4 {
+    flex: 0 0 calc(33.333% - 20px);
+    padding: 20px;
+}
+
+/* Style for widget headings */
+.footer-widget-heading h4 {
+    color: #f0f0f0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for widget content */
+.footer-widget-area p {
+    font-size: 14px;
+}
+
+/* Style for social icons */
+.footer-social-icon a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Style for the links list */
+.linkediting {
+    list-style: none;
+    padding: 0;
+}
+
+.linkediting li {
+    margin-bottom: 10px;
+}
+
+.linkediting a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Style for the copyright text */
+.copyright-text p {
+    font-size: 14px;
+}
+
+/* Style for the footer menus */
+.footer-menus ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menus li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menus a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Style for horizontal rule */
+hr {
+    border-color: #555;
+    margin: 20px 0;
+}
