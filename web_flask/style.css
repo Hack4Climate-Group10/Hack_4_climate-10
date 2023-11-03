@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: lavender;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 2%;
+
+}
+
+.navbar-center ul li{
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar-center ul li a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 8px;
+    background-color: lavender;
+    border-radius: 5px;
+    margin-right: 9px;
+
+}
+
+.search-container input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: blue;
+    padding: .6rem;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+}
+
+.body-container{
+    background-image: url(images/sam.jpg);
+    height: 20rem;
+    display: flex;
+        ;
+      
+    }
+
+.card{
+    background-color: #f29620;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    margin-top: 12rem;
+    margin-right: 4rem;
+    margin-bottom: 5rem; /* Add margin to the bottom */
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2{
+    background-color:#257830;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    margin-top: 12rem; /* Add margin to the top */
+    margin-right: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2{
+    font-size: 1.2rem;
+    padding: 7px;
+    margin: 1rem 2rem 0.5rem 2rem;
+    color: white;
+}
+
+.card p{
+    font-size: 1rem;
+    padding: 1.25rem;
+    
+}
+
+.card-2 h2{
+    font-size: 1.2rem;
+    padding: 7px;
+    margin: 1rem 2rem 0.5rem 2rem;
+    color: white;
+}
+
+.card-2 p{
+    font-size: 1rem;
+    padding: 1.25rem;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 8px;
+    background-color: lavender;
+    border-radius: 5px;
+    margin-right: 9px;
+
+}
+
+.search-container input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: blue;
+    padding: .6rem;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+}
+
+.body-container{
+    background-image: url(images/sam.jpg);
+    height: 20rem;
+    display: flex;
+        ;
+        
+    }
+
+    .card{
+        background-color: #f29620;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-top: 12rem;
+        margin-right: 4rem;
+        margin-bottom: 5rem; /* Add margin to the bottom */
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2{
+        background-color:#257830;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-top: 12rem; /* Add margin to the top */
+        margin-right: 5rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card h2{
+        font-size: 1.2rem;
+        padding: 7px;
+        margin: 1rem 2rem 0.5rem 2rem;
+        color: white;
+    }
+
+    .card p{
+        font-size: 1rem;
+        padding: 1.25rem;
+        
+    }
+
+    .card-2 h2{
+        font-size: 1.2rem;
+        padding: 7px;
+        margin: 1rem 2rem 0.5rem 2rem;
+        color: white;
+    }
+
+    .card-2 p{
+        font-size: 1rem;
+        padding: 1.25rem;
+        
+    }
+
+.footer{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+
+/* .footer .about-us .social-media .contuct-us h2{
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 10px;
+} */
+
+/* .footer .about-us .social-media .contuct-us p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+} */ 
+
+
