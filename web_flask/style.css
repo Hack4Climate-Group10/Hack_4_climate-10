@@ -59,6 +59,7 @@ body{
     color: white;
     border-radius: .5rem;
     border: none;
+    cursor: pointer;
 }
 
 .search-container{
@@ -233,89 +234,62 @@ ul{
 	list-style: none;
     }
 
-/* Style for the main footer container */
-#primary-footer {
+
+
+.container{
+    display: grid;
+    width: 1338px;
+    padding: 5px;
+    height: 30vh;
     background-color: #333;
     color: #fff;
-    padding: 30px 0;
+  align-items: start;
+}
+.container .footer-below{
+    /* display: flex; */
+    justify-content: space-around;
+    padding: 10px;
+    /* display: block; */
+    /* margin-left: 60px; */
+}
+.row{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 10px;
+    justify-content: space-around;
 }
-
-/* Style for the footer widgets */
-.footer-widget-area {
+ .container .footer-menu{
+    position: relative;
+    margin-left: 75%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-/* Style for individual widget columns */
-.footer-widget-area .col-md-4 {
-    flex: 0 0 calc(33.333% - 20px);
-    padding: 20px;
 }
-
-/* Style for widget headings */
-.footer-widget-heading h4 {
-    color: #f0f0f0;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-/* Style for widget content */
-.footer-widget-area p {
-    font-size: 14px;
-}
-
-/* Style for social icons */
-.footer-social-icon a {
-    color: #fff;
-    font-size: 24px;
-    margin-right: 10px;
-    text-decoration: none;
-}
-
-/* Style for the links list */
-.linkediting {
-    list-style: none;
-    padding: 0;
-}
-
-.linkediting li {
-    margin-bottom: 10px;
-}
-
-.linkediting a {
-    color: #f0f0f0;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-/* Style for the copyright text */
-.copyright-text p {
-    font-size: 14px;
-}
-
-/* Style for the footer menus */
-.footer-menus ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-menus li {
+.container .copyright .footer-menu ul li {
     display: inline-block;
-    margin-right: 20px;
+    padding: 10px;
 }
-
-.footer-menus a {
-    color: #f0f0f0;
+.footer-below .copyright{
+    margin-top: 10px;
+}
+.copyright p{
+    width: 20%;
+    background-color: #fff;
+    margin: 10px 10px;
+}
+.footer-item ul li {
+    list-style: none;
+}
+.footer-item ul li a{
     text-decoration: none;
-    font-size: 14px;
+    color: #fff; 
+    /* margin: 2px auto; */
+    justify-content: space-between;
 }
-
-/* Style for horizontal rule */
-hr {
-    border-color: #555;
-    margin: 20px 0;
+.footer-heading{
+    /* margin-left: 30px; */
+    grid-column: 10px;
+    margin-left: 40px;
+    /* background-color: #fff; */
+}
+p, .social-title{
+    margin-left: 30px;
 }
