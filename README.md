@@ -40,8 +40,7 @@ Join us in our mission to make a positive impact on the environment with ZURI Bi
 ## Project Presentation
 
 Watch our project presentation to see how ZURI Bin works in action:
-
-![Project Presentation](https://drive.google.com/file/d/16490USkru6zkMY3lhZQF0KY_KKk4MxjS/view?usp=drive_web)
+`https://drive.google.com/file/d/16490USkru6zkMY3lhZQF0KY_KKk4MxjS/view?usp=drive_web`
 
 
 
