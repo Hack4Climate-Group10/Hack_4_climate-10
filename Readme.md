@@ -1,6 +1,6 @@
 # ZURI Bin - A Climate Solution Project
 
-ZURI Bin is a climate solution project developed for the Hack4Climate program. It's a collaborative effort by a team of five passionate individuals dedicated to addressing the critical issue of poor waste disposal in urban environments. In the bustling urban centers, the consequences of irresponsible waste disposal are alarming, as pollutants infiltrate the air, contaminate water sources, and poison the soil. This has devastating effects on wildlife, habitats, and the delicate balance of nature, casting a dark shadow over the urban landscape.
+ZURI Bin is a climate solution project developed for the Hack4Climate program. It's a collaborative effort by a team of fiv passionate individuals dedicated to addressing the critical issue of poor waste disposal in urban environments. In the bustling urban centers, the consequences of irresponsible waste disposal are alarming, as pollutants infiltrate the air, contaminate water sources, and poison the soil. This has devastating effects on wildlife, habitats, and the delicate balance of nature, casting a dark shadow over the urban landscape.
 
 ## The Urgent Need for Comprehensive Waste Management
 
